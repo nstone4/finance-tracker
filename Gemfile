@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
-
+gem 'devise'
+gem 'twitter-bootstrap-rails' 
+gem 'devise-bootstrap-views' #some interface
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+gem 'stock_quote', '~> 1.5', '>= 1.5.4' #stock implementation from RubyGems.org
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
